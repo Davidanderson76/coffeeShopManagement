@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-function Home() {
+function Vehicle() {
   return (
     <div className="App App-header">
       <Container>
         <Row>
           <Col>
-            <h1>HOME PAGE</h1>
+            <h1>VEHICLES PAGE</h1>
           </Col>
         </Row>
         <Row>
@@ -15,16 +15,9 @@ function Home() {
           <Col sm>2</Col>
           <Col sm>3</Col>
         </Row>
-        <Row>
-          <Col></Col>
-          <Col xl>
-            <button>SIGN IN</button>
-          </Col>
-          <Col></Col>
-        </Row>
       </Container>
     </div>
   );
 }
 
-export default Home;
+export default Vehicle;

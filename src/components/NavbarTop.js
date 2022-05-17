@@ -6,20 +6,19 @@ function NavbarTop() {
     <div>
       <Navbar fixed="top" bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="/">TIME // FLOW</Navbar.Brand>
+          <Navbar.Brand href="/">Coffee Shop Management System</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">HOME</Nav.Link>
-              <Nav.Link href="/todos">TO DO'S</Nav.Link>
-              <NavDropdown title="TEAMS" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/profile">Profile</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">My Teams</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Team ToDo's
-                </NavDropdown.Item>
+              <Nav.Link href="/stores">Stores</Nav.Link>
+              <Nav.Link href="/employees">Employees</Nav.Link>
+              <Nav.Link href="/equipment">Equipment</Nav.Link>
+              <Nav.Link href="/vehicles">Vehicles</Nav.Link>
+
+              <NavDropdown title="Sign In" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/login">Login</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/settings">Settings</NavDropdown.Item>
+                <NavDropdown.Item href="/login">Logout</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

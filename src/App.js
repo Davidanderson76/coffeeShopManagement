@@ -4,10 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //PAGES
 import Home from "./pages/Home";
-import Profile from "./pages/Profile";
 import Login from "./pages/Login";
-import Todos from "./pages/Todos";
 import Error from "./pages/Error";
+
+import Stores from "./pages/Stores";
+import Employees from "./pages/Employees";
+import Equipment from "./pages/Equipment";
+import Vehicle from "./pages/Vehicle";
 
 //STYLING
 import "./App.css";
@@ -20,8 +23,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/todos" element={<Todos />} />
+          <Route path="/stores" element={<Stores />} />
+          <Route path="/employees" element={<Employees />} />
+          <Route path="/equipment" element={<Equipment />} />
+          <Route path="/vehicles" element={<Vehicle />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </Router>
