@@ -1,6 +1,6 @@
 import React from "react";
 import "./errorPage.css";
-import LoadingButton from "../components/ButtonLoadingState";
+import LoadingButton from "../../components/ButtonLoadingState";
 
 function Error() {
   return (

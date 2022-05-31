@@ -37,6 +37,12 @@
 
 ## Usage Information
 
+### Tables layout
+
+<br>
+
+![Database Tables](./src/images/cmsTables.png)
+
 ## Testing
 
 ## Obstacles

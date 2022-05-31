@@ -3,14 +3,14 @@ import NavbarTop from "./components/NavbarTop";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //PAGES
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Error from "./pages/Error";
+import Home from "./pages/HomePage/Home";
+import Login from "./pages/LoginPage/Login";
+import Error from "./pages/ErrorPage/Error";
 
-import Stores from "./pages/Stores";
-import Employees from "./pages/Employees";
-import Equipment from "./pages/Equipment";
-import Vehicle from "./pages/Vehicle";
+import Stores from "./pages/StoresPage/Stores";
+import Employees from "./pages/EmployeePage/Employees";
+import Equipment from "./pages/EquipmentPage/Equipment";
+import Vehicle from "./pages/VehiclePage/Vehicle";
 
 //STYLING
 import "./App.css";
